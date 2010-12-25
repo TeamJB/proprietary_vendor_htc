@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for ace
 PRODUCT_COPY_FILES += \
-    vendor/htc/ace/proprietary/A1026_CFG.csv:/system/etc/A1026_CFG.csv \
     vendor/htc/ace/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/ace/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/ace/proprietary/AIC3254_REG.csv:/system/etc/AIC3254_REG.csv \
@@ -36,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/HP_Video.csv:/system/etc/HP_Video.csv \
     vendor/htc/ace/proprietary/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
     vendor/htc/ace/proprietary/SPK_Combination.csv:/system/etc/SPK_Combination.csv \
+    vendor/htc/ace/proprietary/spn-conf.xml:/system/etc/spn-conf.xml \
+    vendor/htc/ace/proprietary/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
     vendor/htc/ace/proprietary/vpimg:/system/etc/vpimg \
     vendor/htc/ace/proprietary/akmd:/system/bin/akmd \
     vendor/htc/ace/proprietary/bma150_usr:/system/bin/bma150_usr \
