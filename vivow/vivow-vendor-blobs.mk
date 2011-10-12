@@ -18,14 +18,11 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/vivow/proprietary/libril.so:obj/lib/libril.so \
-    vendor/htc/vivow/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so 
+    vendor/htc/vivow/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for vivow
 PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/akmd:/system/bin/akmd \
-    vendor/htc/vivow/proprietary/rild:/system/bin/rild \
-    vendor/htc/vivow/proprietary/qmuxd:/system/bin/qmuxd \
-    vendor/htc/vivow/proprietary/netmgrd:/system/bin/netmgrd \
     vendor/htc/vivow/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/vivow/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/vivow/proprietary/dmagent:/system/bin/dmagent \
@@ -44,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vivow/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/vivow/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/vivow/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vivow/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/vivow/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vivow/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
@@ -51,12 +49,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libims_ril.so:/system/lib/libims_ril.so \
     vendor/htc/vivow/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
     vendor/htc/vivow/proprietary/libril_ims.so:/system/lib/libreference-ril.so \
-    vendor/htc/vivow/proprietary/libril.so:/system/lib/libril.so \
-    vendor/htc/vivow/proprietary/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
-    vendor/htc/vivow/proprietary/libqmi.so:/system/lib/libqmi.so \
-    vendor/htc/vivow/proprietary/libdll.so:/system/lib/libdll.so \
-    vendor/htc/vivow/proprietary/libdiag.so:/system/lib/libdiag.so \
-    vendor/htc/vivow/proprietary/libidl.so:/system/lib/libidl.so \
-    vendor/htc/vivow/proprietary/libnetmgr.so:/system/lib/libnetmgr.so \
-    vendor/htc/vivow/proprietary/libdsutils.so:/system/lib/libdsutils.so \
-    vendor/htc/vivow/proprietary/libqdp.so:/system/lib/libqdp.so
+    vendor/htc/vivow/proprietary/libril.so:/system/lib/libril.so
