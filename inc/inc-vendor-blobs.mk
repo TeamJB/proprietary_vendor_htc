@@ -35,18 +35,30 @@ PRODUCT_COPY_FILES += \
     vendor/htc/inc/proprietary/default.acdb:/system/etc/firmware/default.acdb \
     vendor/htc/inc/proprietary/default_PMIC.acdb:/system/etc/firmware/default_PMIC.acdb \
     vendor/htc/inc/proprietary/default_VZW.acdb:/system/etc/firmware/default_VZW.acdb \
+    vendor/htc/inc/proprietary/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
+    vendor/htc/inc/proprietary/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
+    vendor/htc/inc/proprietary/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
+    vendor/htc/inc/proprietary/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
+    vendor/htc/inc/proprietary/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
+    vendor/htc/inc/proprietary/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
+    vendor/htc/inc/proprietary/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
     vendor/htc/inc/proprietary/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
     vendor/htc/inc/proprietary/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
+    vendor/htc/inc/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/inc/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/inc/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/htc/inc/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/inc/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/inc/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/inc/proprietary/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/inc/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/inc/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/inc/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/inc/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/inc/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/inc/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/inc/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
+    vendor/htc/inc/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/inc/proprietary/incrediblec-keypad.kcm.bin:/system/usr/keychars/incrediblec-keypad.kcm.bin \
     vendor/htc/inc/proprietary/h2w_headset.kl:/system/usr/keylayout/h2w_headset.kl \
     vendor/htc/inc/proprietary/incrediblec-keypad.kl:/system/usr/keylayout/incrediblec-keypad.kl \
