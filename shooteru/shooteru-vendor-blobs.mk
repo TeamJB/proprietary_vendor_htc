@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shooteru
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooteru/proprietary/bma150_usr:system/bin/bma150_usr \
     vendor/htc/shooteru/proprietary/charging:system/bin/charging \
     vendor/htc/shooteru/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/shooteru/proprietary/htcbatt:system/bin/htcbatt \
@@ -46,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/htc/shooteru/proprietary/libC2D2.so:system/lib/libC2D2.so \
     vendor/htc/shooteru/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/htc/shooteru/proprietary/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/htc/shooteru/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/shooteru/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/htc/shooteru/proprietary/libaudcal.so:system/lib/libaudcal.so \
