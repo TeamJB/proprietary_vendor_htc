@@ -24,10 +24,17 @@ PRODUCT_COPY_FILES += \
     
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
+    vendor/htc/shooter/proprietary/3D_calibration:/system/bin/3D_calibration \
+    vendor/htc/shooter/proprietary/3D_calibration_main:/system/bin/3D_calibration_main \
+    vendor/htc/shooter/proprietary/awb_camera:/system/bin/awb_camera \
+    vendor/htc/shooter/proprietary/awb_camera_main:/system/bin/awb_camera_main \
     vendor/htc/shooter/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/shooter/proprietary/charging:/system/bin/charging \
+    vendor/htc/shooter/proprietary/dmagent:/system/bin/dmagent \
     vendor/htc/shooter/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/shooter/proprietary/htcbatt:/system/bin/htcbatt \
+    vendor/htc/shooter/proprietary/lsc_camera:/system/bin/lsc_camera \
+    vendor/htc/shooter/proprietary/lsc_camera_main:/system/bin/lsc_camera_main \
     vendor/htc/shooter/proprietary/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/mpdecision:/system/bin/mpdecision \
     vendor/htc/shooter/proprietary/netmgrd:/system/bin/netmgrd \
@@ -44,8 +51,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/libacdbmapper.so:system/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/shooter/proprietary/libcameraLN.so:/system/lib/libcameraLN.so \
+    vendor/htc/shooter/proprietary/libcameraSP.so:/system/lib/libcameraSP.so \
     vendor/htc/shooter/proprietary/libcamerapp.so:/system/lib/libcamerapp.so \
     vendor/htc/shooter/proprietary/libcameraface.so:/system/lib/libcameraface.so \
+    vendor/htc/shooter/proprietary/libdmtree.so:/system/lib/libdmtree.so \
     vendor/htc/shooter/proprietary/libdll.so:/system/lib/libdll.so \
     vendor/htc/shooter/proprietary/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/shooter/proprietary/libidl.so:/system/lib/libidl.so \
@@ -59,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/shooter/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/shooter/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
+    vendor/htc/shooter/proprietary/libhtcdm.so:/system/lib/libhtcdm.so \
     vendor/htc/shooter/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/shooter/proprietary/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
     vendor/htc/shooter/proprietary/libmmipl.so:/system/lib/libmmipl.so \
@@ -70,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libmlplatform.so:/system/lib/libmlplatform.so \
     vendor/htc/shooter/proprietary/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/shooter/proprietary/liboemcamera_main.so:/system/lib/liboemcamera_main.so \
     vendor/htc/shooter/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so \
     vendor/htc/shooter/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
     vendor/htc/shooter/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
@@ -102,5 +114,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
     vendor/htc/shooter/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/shooter/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
-    vendor/htc/shooter/proprietary/ip:/system/bin/ip \
     vendor/htc/shooter/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
