@@ -79,4 +79,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/doubleshot/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/doubleshot/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/doubleshot/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-  vendor/htc/doubleshot/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so
+  vendor/htc/doubleshot/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+  vendor/htc/doubleshot/proprietary/lib/hw/sensors.doubleshot.so:system/lib/hw/sensors.doubleshot.so \
+  vendor/htc/doubleshot/proprietary/lib/hw/lights.doubleshot.so:system/lib/hw/lights.doubleshot.so
